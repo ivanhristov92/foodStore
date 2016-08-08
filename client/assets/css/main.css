@@ -1,0 +1,401 @@
+@font-face {
+    font-family: Oswald;
+    src: url("http://fonts.googleapis.com/css?family=Oswald:regular&v1");
+}
+
+@font-face {
+    font-family: Sonsie One, cursive;;
+    src: url("https://fonts.googleapis.com/css?family=Sonsie+One");
+}
+
+*{
+    font-family: Oswald;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    padding: 25px;
+}
+
+.navbar-default {
+    margin: 10px 0 15px 0 !important;
+}
+
+.navbar-default .navbar-nav>li>a {
+
+    color: #c0c0c0; 
+    padding: 10px 0;
+    height: 40px;
+    margin-bottom:10px;
+    margin-left: 20px;
+  border-bottom: 3px solid white;
+    border-top: 3px solid white;
+    font-size: 1.7em;
+}
+
+.navbar-default .navbar-nav>li>a:active {
+    background-color: #e5e5e5 ;
+    color: #212121;
+    
+}
+
+.navbar-default .navbar-nav>li>a:focus {
+    background-color: #ddd ;
+    color: #555;
+    border-bottom: 3px solid #212121;
+    border-top: 3px solid #212121;
+    background: none;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #c0c0c0;
+    border-bottom: 3px solid #c0c0c0;
+    border-top: 3px solid #c0c0c0;
+}
+.navbar-brand {
+    padding: 0;
+    
+    line-height: 22px;
+    font-size: 4em;
+    font-family: Sonsie one;
+    letter-spacing: -4;
+    padding-top: 5px !important;
+    margin-right: 25px;
+    margin-left: 5px;
+    margin-top: 2px;
+    vertical-align: middle;
+    color: #212121;
+}
+
+.navbar-default .navbar-right>li>a:hover{
+     border-bottom: 3px solid white;
+    border-top: 3px solid white;
+}
+
+
+
+
+
+body{
+    color: #959595;
+    font-size: 12px;
+    font-family: Georgia, Utopia, 'Times New Roman', Times, serif;
+    line-height: 18px;
+}
+
+/*Page*/
+
+.myPage{
+    border: 3px solid #f2f2f2;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+/*Header*/
+
+.navbar{
+    margin-bottom: 0;
+}
+
+.header{
+    border-width: 3px;
+    border-bottom: 3px solid #f2f2f2;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    
+}
+
+/*Brand*/
+
+.myBrand{
+    line-height: 22px;
+    font-size: 4em;
+    font-family: Georgia, Utopia, 'Times New Roman', Times, serif;
+    letter-spacing: -4;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-right: 25px;
+    margin-left: 5px;
+    margin-top: 2px;
+    vertical-align: middle;
+    color: #212121 !important;
+    font-weight: 700;
+}
+
+.myBrand:hover{
+    color: #212121;
+    text-decoration: none;
+}
+
+
+
+/*Menu Items*/
+
+.navbar{
+    background: white;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 3px solid #f2f2f2;
+}
+
+.mainMenu ul{
+    
+}
+
+.menuText{
+    color: #c0c0c0;
+    line-height: 22px;
+    font-size: 1.5em;
+    padding-top: ;
+    padding-bottom: 7px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 2px;
+    
+    
+    
+}
+
+.menuText:hover{
+    color: #c0c0c0;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-bottom: 3px solid #c0c0c0;
+    border-top: 3px solid #c0c0c0;
+    text-decoration: none;
+    height: 3em;
+}
+
+.menuText:active{
+    color: #212121;
+    border-bottom: 3px solid #212121;
+    border-top: 3px solid #212121;
+}
+
+/*Cart*/
+
+.cartText{
+    color: #c0c0c0;
+    line-height: 22px;
+    font-size: 1.5em;
+    padding-top: ;
+    padding-bottom: 7px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.cartText:hover{
+    text-decoration: none;
+    color: #c0c0c0;
+}
+
+/*SubMenu Items*/
+
+.subMenu{
+    padding-bottom: 15px;
+    border-bottom: 3px solid #f2f2f2;
+}
+
+.subMenu a:first-of-type{
+    margin-left: 26px;
+}
+
+.subMenuText{
+    color: #c0c0c0;
+    line-height: 14px;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-right: 20px;
+    margin-left: 0;
+    margin-top: 2px;
+    
+}
+
+.subMenuText:hover{
+    color: #444444;
+    text-decoration: none;
+}
+
+/*Category Info*/
+
+.categoryWrapper{
+    padding-top: 35px;
+    padding-bottom: 25px;
+     border-bottom: 3px solid #f2f2f2;
+     
+}
+
+.categoryBox{
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+        
+   
+}
+
+.showingAll{
+    color: #cccccc;
+    line-height: 1.6em;
+    font-size: 1.4em;
+        margin: 0 0 5px 0;
+}
+
+.categoryInfo{
+    color: #959595;
+    text-transform: uppercase;
+    font-size: 38px;
+        margin: 0 0 5px 0;
+}
+
+
+/*Product List*/
+
+.productList{
+    margin: 2em 35px;
+    padding: 10px;
+}
+
+.product{
+    margin-bottom: 10px;
+}
+
+.productImage img{
+    width: 100%;
+    height: 200px;
+}
+
+.productDetails div{
+    width: 100%;
+    background: ;
+    word-wrap: break-word;
+    border-bottom: 3px solid #f1f1f1;
+    padding: 10px 2px 5px;
+    margin-bottom: 10px;
+    color: #212121;
+    font-style: italic;
+        font-family: Georgia, Utopia, 'Times New Roman', Times, serif;
+    line-height: 18px;
+    font-size: 12px;
+        font-weight: 700;
+    
+}
+
+
+
+.productDetails span{
+    float: right;
+    color: #c0c0c0;
+    font-style: normal;
+}
+
+
+
+/* SIngle Product */
+.single-product{
+    padding: 8em 0;
+}
+
+/* More from category*/
+
+.more-from-category{
+    color: #c0c0c0;
+    font-size: 1.3em;
+    border-top: 3px solid #f1f1f1;
+    border-bottom: 3px solid #f1f1f1;
+    margin-bottom: 1em;
+}
+
+.more-from-category h4{
+    margin-left: 2em;
+    margin: 1em 0 1em 2em;
+    font-size: 1.5em;
+}
+
+.more-from-category-items{
+    padding-left: 2em;
+    margin-top: -1em;
+
+}
+
+.more-from-category .productList{
+    padding: 0;
+    margin: 0;
+    padding-bottom: 0.5em;
+}
+
+
+/*BestSellers*/
+
+.bestSellers{
+    margin-left: 5px;
+}
+
+.best-sellers{
+    color: #c0c0c0;
+    font: normal 400 38px/1.2 'Oswald', serif;
+    line-height: 1.2;
+    font-family: Oswald, serif;
+}
+
+.best-sellers h2{
+    margin-left: 1em;
+}
+
+.bestSellingItems{
+    border-top: 3px solid #f1f1f1;
+    border-bottom: 3px solid #f1f1f1;
+    margin: 0.3em 0 0.3em 0;
+    padding: 1em 1em 0.5em 1em;
+}
+
+/*Social*/
+
+.facebook, .tweeter{
+    display: block;
+}
+
+.facebook img, .tweeter img{
+    width: 20px;
+    height: 20px;
+}
+
+.facebook a, .tweeter a{
+    display: inline-block;
+    margin-left: 1em;
+}
+
+
+.loginForm{
+    margin: 5em auto;
+}
+
+.social-row{
+    margin: 1em 0;
+}
+
+.social-row h3{
+    color: #c0c0c0;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+.social-row ul li a{
+    color: #444444;
+    font-size: 1.3em;
+    font-style: italic; 
+}
+
+.social-row ul li{
+        border-top: 1px solid #f1f1f1;
+    font-weight: bold;
+    padding: 0.5em 0;
+    list-style: none;
+}
